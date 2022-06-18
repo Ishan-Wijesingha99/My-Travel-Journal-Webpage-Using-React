@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+:root {
+    --red: rgb(250, 83, 83);
+}
+
+
+#logo {
+    background-color: var(--red);
+    height: 60px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: var(--red);
+}
+
+.card {
+    margin-bottom: 30px;
+}
